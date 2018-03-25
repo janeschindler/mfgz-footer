@@ -39,12 +39,13 @@
           <div class="col-sm-2">
           </div>
           <div class="col-sm-3">
-						<a href="<?php print get_permalink(4511); ?>"><?php print __('[:de]Kontakt[:en]Contact[:fr]Contact[:]'); ?></a><br>
-						<a href="<?php print get_permalink(4273); ?>"><?php print __('[:de]Presse[:en]Press[:fr]Presse[:]'); ?></a>
+            <a href="https://museum-gestaltung.ch/de/kontakt/"><?php print __('[:de]Kontakt[:en]Contact[:fr]Contact[:]'); ?></a><br>
+						<br>
+            <a href="https://museum-gestaltung.ch/de/pressebereich/"><?php print __('[:de]Presse[:en]Press[:fr]Presse[:]'); ?></a>
           </div>
           <div class="col-sm-3">
-            <?php $discl_link = get_permalink(4601); ?>
-						<a href="<?php print $discl_link; ?>"><?php print __('[:de]Disclaimer / Impressum[:en]Disclaimer / Credits[:fr]Mentions légales / Crédits[:]'); ?></a><br>
+            <?php $discl_link = 'https://museum-gestaltung.ch/'.__('[:de]de[:en]en[:fr]fr[:]').'/disclaimer/'; ?>
+            <a href="<?php print $discl_link; ?>" target='_blank' ><?php print __('[:de]Disclaimer / Impressum[:en]Disclaimer / Credits[:fr]Mentions légales / Crédits[:]'); ?></a><br>
           </div>
           <div class="col-sm-2">
       <div class="social-links">
