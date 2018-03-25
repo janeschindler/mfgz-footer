@@ -5,6 +5,9 @@
   .zhdk-img{
     text-align:right;
   }
+	.row-2 .social-links{
+		display:none;
+	}
 }
 @media(orientation: portrait), (max-width: 800px){
   .row-1 .zhdk-img{
