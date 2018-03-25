@@ -24,7 +24,7 @@
         <li class="instagram"><a href="https://instagram.com/museumgestaltung/" target="_blank">y</a></li>
         <!--<li class="pinterest"><a href="https://www.pinterest.com/source/sammlungen-archive.zhdk.ch/" target="_blank">v</a></li>
         <li class="gplus"><a href="https://plus.google.com/u/0/+museumf%C3%BCrgestaltungz%C3%BCrich" target="_blank">w</a></li>-->
-        <li class="youtube"><a href="https://www.youtube.com/channel/UCiYgRdZ5GYQr6eFxPyqPXHg" target="_blank"><img src="/wp-content/plugins/add-to-any/icons/youtube.svg" /></a></li>
+        <li class="youtube"><a href="https://www.youtube.com/channel/UCiYgRdZ5GYQr6eFxPyqPXHg" target="_blank"><img src="/wp-content/themes/_tk/mfgz-shared/mfgz-footer/youtube.svg" /></a></li>
         <li class="twitter"><a href="https://twitter.com/Design_Museum" target="_blank">x</a></li>
       </div>
           </div>
