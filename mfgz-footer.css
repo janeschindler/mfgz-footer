@@ -1,0 +1,112 @@
+@media(min-width:801px) and (orientation:landscape){
+  .row-2 .zhdk-img{
+    display:none;
+  }
+  .zhdk-img{
+    text-align:right;
+  }
+}
+@media(orientation: portrait), (max-width: 800px){
+  .row-1 .zhdk-img{
+    display:none;
+  }
+  .zhdk-img{
+    margin-top:20px;
+  }
+}
+.footer-logo{
+  color:#ffffff;
+  padding-bottom:20px;
+  font-weight:bold;
+}
+.zhdk-img img{
+  max-width:140px;
+}
+#colophon a{
+  color:#ffffff !important;
+}
+#colophon a:hover{
+  text-decoration:none;
+}
+#colophon{
+  background-color:#000000;
+  color:#ffffff;
+  font-size:12px;
+  padding-top:20px;
+  padding-bottom:30px;
+  line-height:1.2em;
+}
+@media(max-width:769px){
+  #colophon .footer-div{
+    padding-left:43px;
+  }
+}
+
+.site-footer .social-links{
+  padding-top:0px;
+}
+.site-footer .youtube img, .social-links .youtube img{
+  height:30px;
+  width:auto;
+  position:relative;
+  top:-2px;
+}
+.social-links svg{
+  height:30px;
+  width:auto;
+  position:relative;
+  top:4px;
+  right:-1px;
+}
+
+@media(orientation:portrait),(max-width:800px){
+  .site-footer .social-links{
+    display:none;
+  }
+  .row-2 .social-links{
+    display:block;
+    padding-top:30px;
+  }
+  .main-content #content{
+    padding-bottom:40px;
+  }
+}
+
+@media (orientation: portrait), (max-width: 800px){
+  .menu-footer{
+    display:block;
+    position:absolute;
+    bottom:8px;
+    width:100%;
+  }
+  .menu-footer .social-links{
+    display: inline-block;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    margin-left: 124px;
+    height: 46px;
+    background: #000;
+    padding-top: 0px;
+    left: 0px;
+    line-height: 46px;
+    margin-bottom: 0px;
+    padding-left: 4px;
+  }
+  .menu-footer .mfgz-logo{
+    display: inline-block;
+    position: absolute;
+    bottom: 0px;
+    background: #fff;
+    z-index: 10;
+    height: 46px;
+    line-height: 46px;
+  }
+  .menu-footer .social-links a, .menu-footer .social-links a:hover, .menu-footer .social-links a:focus, .menu-footer .social-links a:active{
+    color:#fff;
+  }
+  .menu-footer .social-links li{
+    padding-right:8px;
+  }
+}
+
