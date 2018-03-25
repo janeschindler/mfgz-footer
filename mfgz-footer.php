@@ -40,7 +40,6 @@
           </div>
           <div class="col-sm-3">
             <a href="https://museum-gestaltung.ch/de/kontakt/"><?php print __('[:de]Kontakt[:en]Contact[:fr]Contact[:]'); ?></a><br>
-						<br>
             <a href="https://museum-gestaltung.ch/de/pressebereich/"><?php print __('[:de]Presse[:en]Press[:fr]Presse[:]'); ?></a>
           </div>
           <div class="col-sm-3">
