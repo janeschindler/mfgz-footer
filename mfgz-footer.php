@@ -39,8 +39,8 @@
           <div class="col-sm-2">
           </div>
           <div class="col-sm-3">
-            <a href="https://museum-gestaltung.ch/de/kontakt/"><?php print __('[:de]Kontakt[:en]Contact[:fr]Contact[:]'); ?></a><br>
-            <a href="https://museum-gestaltung.ch/de/pressebereich/"><?php print __('[:de]Presse[:en]Press[:fr]Presse[:]'); ?></a>
+            <a href="https://museum-gestaltung.ch/<?php print __('[:de]de[:en]en[:fr]fr'); ?>/kontakt/"><?php print __('[:de]Kontakt[:en]Contact[:fr]Contact[:]'); ?></a><br>
+            <a href="https://museum-gestaltung.ch/<?php print __('[:de]de[:en]en[:fr]fr'); ?>/pressebereich/"><?php print __('[:de]Presse[:en]Press[:fr]Presse[:]'); ?></a>
           </div>
           <div class="col-sm-3">
             <?php $discl_link = 'https://museum-gestaltung.ch/'.__('[:de]de[:en]en[:fr]fr[:]').'/disclaimer/'; ?>
