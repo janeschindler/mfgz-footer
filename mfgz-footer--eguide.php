@@ -15,7 +15,7 @@
             </div>
             <div class="footer__link">
               <?php $discl_link = 'https://museum-gestaltung.ch/'.__('[:de]de[:en]en[:fr]fr[:]').'/rechtliche-hinweise/'; ?>
-              <a href="<?php print $discl_link; ?>" target='_blank' ><?php print __('[:de]Rechtliches / Impressum[:en]Legal information / Credits[:fr]Mentions légales / Crédits[:]'); ?></a>
+              <a href="<?php print $discl_link; ?>"><?php print __('[:de]Rechtliches / Impressum[:en]Legal information / Credits[:fr]Mentions légales / Crédits[:]'); ?></a>
             </div>
             <div class="footer__link">
               TODO Datenschutz!
@@ -30,7 +30,9 @@
           <div class="col-sm-4 footer__links">
             <div class="row footer__link footer__link--noborder">
               <div class="col-sm-6">
-                Das Museum der<br/>Zürcher Hochschule der Künste
+                <?php print __('[:de]Das Museum der[:en]The museum of[:fr]Le musée de la[:]'); ?>
+                  <br/>
+                <?php print __('[:de]Zürcher Hochschule der Künste[:en]Zurich University of the Arts[:fr]Haute école des arts de Zurich[:]'); ?>
               </div>
               <div class="col-sm-6">
                 <div class="zhdk-img">
