@@ -16,8 +16,8 @@
   background-color:#000000;
   color:#ffffff;
   font-size:12px;
-  padding-top:20px;
-  padding-bottom:30px;
+  padding-top: 20px;
+  padding-bottom:70px;
   line-height:1.2em;
 }
 @media(max-width:769px){
@@ -28,12 +28,13 @@
 
 .site-footer .social-links{
   padding-top:0px;
+  padding-left: 0px;
 }
 .site-footer .youtube img, .social-links .youtube img{
-  height:30px;
+  height:34px;
+  bottom: 1px;
   width:auto;
   position:relative;
-  top:-2px;
 }
 .social-links svg{
   height:30px;
@@ -43,29 +44,11 @@
   right:-1px;
 }
 
-@media(min-width:801px) and (orientation:landscape){
-  .row-2 .zhdk-img{
-    display:none;
-  }
-  .zhdk-img{
-    text-align:right;
-  }
-	.row-2 .social-links{
-		display:none;
-	}
+.social-links--margin {
+  padding-top: 15px !important;
 }
-@media(orientation: portrait), (max-width: 800px){
-  .row-1 .zhdk-img{
-    display:none;
-  }
-  .zhdk-img{
-    margin-top:20px;
-  }
-}
+
 @media(orientation:portrait),(max-width:800px){
-  .site-footer .social-links{
-    display:none;
-  }
   .row-2 .social-links{
     display:block;
     padding-top:30px;
@@ -114,18 +97,9 @@
 }
 
 @media(orientation: portrait) and (min-width: 767px){
-	.social-links{
-		font-size:18px !important;
-	}
-  .row-2 .zhdk-img{
-    display:none;
-  }
   .zhdk-img{
     text-align:right;
   }
-	.row-2 .social-links{
-		display:none;
-	}
 	.row-1 .social-links{
 		display:block;
 	}
@@ -134,7 +108,54 @@
 		margin-top:0px;
 	}
 	.site-footer .youtube img{
-		height:24px;
-		top:-1px;
+		height:36px;
 	}
+}
+
+@media (orientation: portrait) and (max-width: 767px){
+
+  #colophon{
+    padding-top: 0px;
+  }
+
+  .site-footer-inner {
+    padding: 0;
+  }
+
+  .footer__links {
+    padding: 0 15px;
+  }
+
+  .zhdk-img img {
+    max-width: 65%;
+    width: 65%;
+    padding-top: 15px;
+  }
+
+  .footer__links .social-links {
+    padding: 20px 0 17px 15px;
+    font-size: 35px;
+    border-bottom: 1px solid #54595d;
+    margin-bottom: 0px;
+  }
+
+  .site-footer .youtube img{
+    height:48px;
+    bottom: 2px;
+  }
+
+  .footer__link .social-links li {
+    margin-left: 0px !important;
+  }
+
+  .footer__link {
+    font-size: 14px;
+    padding: 15px;
+    border-bottom: 1px solid #54595d;
+  }
+
+  .footer__link--noborder {
+    border-bottom: 0px;
+  }
+
 }
