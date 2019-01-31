@@ -158,4 +158,8 @@
     border-bottom: 0px;
   }
 
+  .footer__organisation {
+    padding: 15px;
+  }
+
 }

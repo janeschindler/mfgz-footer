@@ -17,10 +17,10 @@
           </div>
           <div class="col-sm-4 footer__links">
             <ul class="social-links">
-              <li class="facebook"><a href="http://www.facebook.com/pages/Zurich-Switzerland/Museum-fur-Gestaltung-Zurich/74825495877?ref=ts" target="_blank">u</a></li>
+              <li class="facebook"><a href="https://www.facebook.com/museumgestaltung/" target="_blank">u</a></li>
               <li class="instagram"><a href="https://instagram.com/museumgestaltung/" target="_blank">y</a></li>
               <li class="youtube"><a href="https://www.youtube.com/channel/UCiYgRdZ5GYQr6eFxPyqPXHg" target="_blank"><img src="/wp-content/themes/_tk/mfgz-shared/mfgz-footer/youtube.svg" alt="youtube"/></a></li>
-              <li class="twitter"><a href="https://twitter.com/Design_Museum" target="_blank">x</a></li>
+              <li class="twitter"><a href=" https://twitter.com/musgestaltung" target="_blank">x</a></li>
             </ul>
           </div>
           <div class="col-sm-4 footer__links">
