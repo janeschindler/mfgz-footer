@@ -18,7 +18,8 @@
               <a href="<?php print $discl_link; ?>"><?php print __('[:de]Rechtliches / Impressum[:en]Legal information / Credits[:fr]Mentions légales / Crédits[:]'); ?></a>
             </div>
             <div class="footer__link">
-              TODO Datenschutz!
+              <?php $discl_link = 'https://museum-gestaltung.ch/'.__('[:de]de[:en]en[:fr]fr[:]').'/datenschutz/'; ?>
+              <a href="<?php print $discl_link; ?>"><?php print __('[:de]Datenschutz[:en]Data Protection[:fr]Confidentialité[:]'); ?></a>
             </div>
             <ul class="social-links social-links--margin">
               <li class="facebook"><a href="http://www.facebook.com/pages/Zurich-Switzerland/Museum-fur-Gestaltung-Zurich/74825495877?ref=ts" target="_blank">u</a></li>
