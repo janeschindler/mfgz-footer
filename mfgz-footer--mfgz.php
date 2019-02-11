@@ -16,7 +16,7 @@
             </div>
             <div class="footer__link">
               <?php $discl_link = 'https://museum-gestaltung.ch/'.__('[:de]de[:en]en[:fr]fr[:]').'/datenschutz/'; ?>
-              <a href="<?php print $discl_link; ?>"><?php print __('[:de]Datenschutz[:en]Data Protection[:fr]Confidentialité[:]'); ?></a>
+              <a href="<?php print $discl_link; ?>"><?php print __('[:de]Datenschutz[:en]Data protection[:fr]Confidentialité[:]'); ?></a>
             </div>
           </div>
           <div class="col-sm-4 footer__links">

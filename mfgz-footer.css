@@ -20,6 +20,20 @@
   padding-bottom:70px;
   line-height:1.2em;
 }
+.fk-link{
+	margin-top:2em;
+}
+.fk-img img{
+	max-width:95px;
+	margin-top:-5px;
+}
+@media(max-width:769px){
+	.fk-img img{
+		max-width:113px;
+		margin-top:5px;
+		margin-left:-9px;
+	}
+}
 @media(max-width:769px){
   #colophon .footer-div{
     padding-left:43px;

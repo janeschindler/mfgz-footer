@@ -14,35 +14,29 @@
               <a href="https://museum-gestaltung.ch/<?php print __('[:de]de[:en]en[:fr]fr'); ?>/kontakt/"><?php print __('[:de]Kontakt[:en]Contact[:fr]Contact[:]'); ?></a>
             </div>
             <div class="footer__link">
-              TODO Newsletter!
-            </div>
-            <div class="footer__link">
-              <a href="https://museum-gestaltung.ch/<?php print __('[:de]de[:en]en[:fr]fr'); ?>/pressebereich/"><?php print __('[:de]Medien[:en]Media[:fr]Média[:]'); ?></a>
-            </div>
-            <div class="footer__link">
               <?php $discl_link = 'https://museum-gestaltung.ch/'.__('[:de]de[:en]en[:fr]fr[:]').'/rechtliche-hinweise/'; ?>
-              <a href="<?php print $discl_link; ?>"><?php print __('[:de]Rechtliches / Impressum[:en]Legal information / Credits[:fr]Mentions légales / Crédits[:]'); ?></a>
+              <a href="<?php print $discl_link; ?>" target="_blank"><?php print __('[:de]Rechtliches / Impressum[:en]Legal information / Credits[:fr]Mentions légales / Crédits[:]'); ?></a>
             </div>
             <div class="footer__link">
-              TODO Datenschutz!
+              <?php $discl_link = 'https://museum-gestaltung.ch/'.__('[:de]de[:en]en[:fr]fr[:]').'/datenschutz/'; ?>
+              <a href="<?php print $discl_link; ?>" target="_blank"><?php print __('[:de]Datenschutz[:en]Data protection[:fr]Confidentialité[:]'); ?></a>
             </div>
             <ul class="social-links social-links--margin">
-              <li class="facebook"><a href="http://www.facebook.com/pages/Zurich-Switzerland/Museum-fur-Gestaltung-Zurich/74825495877?ref=ts" target="_blank">u</a></li>
-              <li class="instagram"><a href="https://instagram.com/museumgestaltung/" target="_blank">y</a></li>
-              <li class="youtube"><a href="https://www.youtube.com/channel/UCiYgRdZ5GYQr6eFxPyqPXHg" target="_blank"><img src="/wp-content/themes/_tk/mfgz-shared/mfgz-footer/youtube.svg" alt="youtube"/></a></li>
-              <li class="twitter"><a href="https://twitter.com/Design_Museum" target="_blank">x</a></li>
+			  <li class="facebook"><a href="https://www.facebook.com/PavillonLeCorbusier/" target="_blank">u</a></li>
+			  <li class="instagram"><a href="https://www.instagram.com/pavillonlecorbusier/" target="_blank">y</a></li>
             </ul>
           </div>
           <div class="col-sm-4 footer__links">
             <div class="row footer__link footer__link--noborder">
               <div class="col-sm-6">
-                Ein Angebot von<br />
-                Kultur STadt Zürich<br /><br />
-                Inhalt und Betrieb<br />
-                Museum für Gestaltung Zürich
+				<?php print __('[:de]Ein Angebot von:[:en]An offer of: [:fr]Une offre de:[:]'); ?><br />
+				<a href="https://www.stadt-zuerich.ch/kultur/de/index.html" target="_blank">Kultur Stadt Zürich</a><br /><br />
+				<?php print __('[:de]Inhalt und Betrieb:[:en]Content and operation:[:fr]Contenu et administration:[:]'); ?><br />
+				<a href=" https://museum-gestaltung.ch/<?php print __('[:de]de[:en]en[:fr]fr'); ?>" target="_blank">Museum für Gestaltung Zürich</a><br /><br />
               </div>
               <div class="col-sm-6">
-                Mit freundlicher Unterstützung von
+                <?php print __('[:de]Mit freundlicher Unterstützung von[:en]With the kind support of[:fr]Avec le soutien de[:]'); ?><br>
+                SwissRe
               </div>
             </div>
           </div>
