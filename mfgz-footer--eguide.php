@@ -1,4 +1,4 @@
-<footer id="colophon" class="site-footer" role="contentinfo">
+<footer id="colophon" class="site-footer eguide-footer" role="contentinfo">
   <div class="container-fluid">
     <div class="row">
       <div class="site-footer-inner col-sm-12">
