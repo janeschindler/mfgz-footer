@@ -29,26 +29,22 @@
             </ul>
           </div>
           <div class="col-sm-4 footer__links">
-            <div class="row footer__link footer__link--noborder">
-              <div class="col-sm-6">
-                <?php print __('[:de]Das Museum der[:en]The museum of[:fr]Le musée de la[:]'); ?>
-                  <br/>
-                <?php print __('[:de]Zürcher Hochschule der Künste[:en]Zurich University of the Arts[:fr]Haute école des arts de Zurich[:]'); ?>
-              </div>
-              <div class="col-sm-6">
-                <div class="zhdk-img">
-                  <a href="http://<?php print __('[:de]zhdk.ch[:en]zhdk.ch/en[:fr]zhdk.ch/en[:]'); ?>" target="_blank" ><img src="<?php print get_template_directory_uri(); ?>/includes/2018_zhdk_logo_weiss.svg" alt="ZHDK Logo"/></a>
-                </div>
+						<div class="col-sm-6">
+            	<div class="row footer__link footer__link--noborder">
+								<?php print __('[:de]Das Museum der[:en]The museum of[:fr]Le musée de la[:]'); ?>
+									<br/>
+								<?php print __('[:de]Zürcher Hochschule der Künste[:en]Zurich University of the Arts[:fr]Haute école des arts de Zurich[:]'); ?><br><br>
+								<div class="zhdk-img">
+									<a href="http://<?php print __('[:de]zhdk.ch[:en]zhdk.ch/en[:fr]zhdk.ch/en[:]'); ?>" target="_blank" ><img src="<?php print get_template_directory_uri(); ?>/includes/2018_zhdk_logo_weiss.svg" alt="ZHDK Logo"/></a>
+								</div>
               </div>
             </div>
-            <div class="row footer__link footer__link--noborder fk-link">
-              <div class="col-sm-6">
-                <?php print __('[:de]Mit freundlicher Unterstützung von[:en]With the kind support of[:fr]Avec le soutien de[:]'); ?>
-              </div>
-              <div class="col-sm-6">
-                <div class="fk-img">
-                  <a href="https://museum-gestaltung.ch/<?php print __('[:de]de[:en]en[:fr]fr'); ?>/freundeskreis/" target="_blank"><img src="/wp-content/themes/_tk/mfgz-shared/mfgz-footer/FK_Logo.svg" alt="Freundeskreis Logo"/></a>
-                </div>
+            <div class="col-sm-6">
+            	<div class="row footer__link footer__link--noborder fk-link">
+                <?php print __('[:de]Mit freundlicher Unterstützung von[:en]With the kind support of[:fr]Avec le soutien de[:]'); ?><br><br>
+								<div class="fk-img">
+									<a href="https://museum-gestaltung.ch/<?php print __('[:de]de[:en]en[:fr]fr'); ?>/freundeskreis/" target="_blank"><img src="/wp-content/themes/_tk/mfgz-shared/mfgz-footer/FK_Logo.svg" alt="Freundeskreis Logo"/></a>
+								</div>
               </div>
             </div>
           </div>
