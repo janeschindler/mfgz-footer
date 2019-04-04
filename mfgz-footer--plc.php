@@ -5,7 +5,7 @@
               <div class="row">
                   <div class="col-sm-4 footer__links">
                       <div class="footer__link">
-                          <a href="<?php print __('[:de]de[:en]en[:fr]fr'); ?>/ueber-uns"><?php print __('[:de]Kontakt[:en]Contact[:fr]Contact[:]'); ?></a>
+                         <a href="<?php print '/'.__('[:de]de[:en]en[:fr]fr'); ?>/information"><?php print __('[:de]Kontakt[:en]Contact[:fr]Contact[:]'); ?></a>
                       </div>
                       <div class="footer__link">
                         <a href="https://museum-gestaltung.ch/<?php print __('[:de]de[:en]en[:fr]fr'); ?>/pressebereich" target="_blank"><?php print __('[:de]Medien[:en]Media[:fr]Média[:]'); ?></a>
