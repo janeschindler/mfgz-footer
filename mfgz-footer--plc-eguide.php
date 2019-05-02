@@ -11,14 +11,14 @@
           </div>
           <div class="col-sm-4 footer__links">
             <div class="footer__link">
-              <a href="https://museum-gestaltung.ch/<?php print __('[:de]de[:en]en[:fr]fr'); ?>/kontakt/"><?php print __('[:de]Kontakt[:en]Contact[:fr]Contact[:]'); ?></a>
+              <a href="https://pavillon-le-corbusier.ch/<?php print __('[:de]de[:en]en[:fr]fr'); ?>/information/" target="_blank"><?php print __('[:de]Kontakt[:en]Contact[:fr]Contact[:]'); ?></a>
             </div>
             <div class="footer__link">
-              <?php $discl_link = 'https://museum-gestaltung.ch/'.__('[:de]de[:en]en[:fr]fr[:]').'/rechtliche-hinweise/'; ?>
+              <?php $discl_link = 'https://pavillon-le-corbusier.ch/'.__('[:de]de[:en]en[:fr]fr[:]').'/rechtliche-hinweise/'; ?>
               <a href="<?php print $discl_link; ?>" target="_blank"><?php print __('[:de]Rechtliches / Impressum[:en]Legal information / Credits[:fr]Mentions légales / Crédits[:]'); ?></a>
             </div>
             <div class="footer__link">
-              <?php $discl_link = 'https://museum-gestaltung.ch/'.__('[:de]de[:en]en[:fr]fr[:]').'/datenschutz/'; ?>
+              <?php $discl_link = 'https://pavillon-le-corbusier.ch/'.__('[:de]de[:en]en[:fr]fr[:]').'/datenschutzerklaerung/'; ?>
               <a href="<?php print $discl_link; ?>" target="_blank"><?php print __('[:de]Datenschutz[:en]Data protection[:fr]Confidentialité[:]'); ?></a>
             </div>
             <ul class="social-links social-links--margin">
