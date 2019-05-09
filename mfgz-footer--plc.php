@@ -26,7 +26,7 @@
                     </ul>
                   </div>
                   <div class="col-sm-4 footer__links">
-                    <div class="footer__organisation">
+                    <div class="footer__organisation footer__link">
                         <?php print __('[:de]Ein Angebot von:[:en]An offer of:[:fr]Une offre de:[:]'); ?><br />
                         <a href="https://www.stadt-zuerich.ch/kultur/de/index.html" target="_blank">Kultur Stadt Zürich</a><br /><br />
                         <?php print __('[:de]Leitung und Kuratorium:[:en]Direction and curation:[:fr]Direction et commissariat:[:]'); ?><br />
