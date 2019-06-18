@@ -37,7 +37,7 @@
               </div>
               <div class="col-sm-6">
                 <?php print __('[:de]Mit freundlicher Unterstützung von[:en]With the kind support of[:fr]Avec le soutien de[:]'); ?><br>
-                SwissRe
+                <a href="https://www.swissre.com" target="_blank">SwissRe</a>
               </div>
             </div>
           </div>
